@@ -1,6 +1,6 @@
 # Assignment 2: Classify
 ## Part A:
-1. Implement abs, argmax, dot, relu, matmul. -> help with chatGPT 4.0
+1. Implement abs, argmax, dot, relu, matmul. -> Help with chatGPT 4o
 
 
 ### multiply.s
