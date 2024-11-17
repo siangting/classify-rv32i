@@ -98,7 +98,7 @@ result_ready:
 
 4. **`fread` Check**: Properly check whether `fread` has read the expected number of bytes using `bne a0, t0` for verification.
 
-### write_matrix
+### write_matrix.s
 1. Use the multiply function written above.
 2. **Stack Space Adjustment**:
    * The original version had a stack space allocation of `addi sp, sp, -44`, but in the corrected version, it was increased to `addi sp, sp, -48`. This change ensures there is sufficient space for all stored registers and local variables, preventing potential memory overwrites or issues during execution.
